@@ -1,45 +1,46 @@
 class DynamicArray {
 
-  constructor(defaultSize = 4) {
+    constructor(defaultSize = 4) {
 
-    // Your code here
-  }
+        this.capacity = defaultSize
+        this.length = 0
+        this.data = new Array(defaultSize)
+    }
 
-  read(index) {
+    read(index) {
+        return this.data[index]
+    }
 
-    // Your code here
-  }
+    push(val) {
 
-  push(val) {
-
-    // Your code here
-  }
+        // Your code here
+    }
 
 
-  pop() {
+    pop() {
 
-    // Your code here
-  }
+        // Your code here
+    }
 
-  shift() {
+    shift() {
 
-    // Your code here
-  }
+        // Your code here
+    }
 
-  unshift(val) {
+    unshift(val) {
 
-    // Your code here
-  }
+        // Your code here
+    }
 
-  indexOf(val) {
+    indexOf(val) {
 
-    // Your code here
-  }
+        // Your code here
+    }
 
-  resize() {
+    resize() {
 
-    // Your code here
-  }
+        // Your code here
+    }
 
 }
 
